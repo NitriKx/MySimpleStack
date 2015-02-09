@@ -3,6 +3,8 @@ package dcll.sauvere;
 import junit.framework.TestCase;
 import org.junit.Test;
 
+import java.util.EmptyStackException;
+
 /**
  * Created by benoit on 09/02/15.
  */
@@ -30,4 +32,26 @@ public class SimpleStackImplTest extends TestCase {
 
     }
 
+
+    public void testEmptyStackPeek() {
+
+        SimpleStack ss = new SimpleStackImpl();
+
+        try {
+            ss.peek();
+            fail("Exception has not been thrown");
+        } catch (EmptyStackException e) {
+        }
+    }
+
+    public void testEmptyStackPop() {
+
+        SimpleStack ss = new SimpleStackImpl();
+
+        try {
+            ss.pop();
+            fail("Exception has not been thrown");
+        } catch (EmptyStackException e) {
+        }
+    }
 }
