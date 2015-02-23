@@ -4,6 +4,8 @@ import java.util.EmptyStackException;
 
 /**
  * Created by Benoît Sauvère on 09/02/15.
+ *
+ * @author Benoît Sauvère
  */
 public interface SimpleStack {
     /**

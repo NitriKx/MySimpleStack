@@ -3,6 +3,8 @@ package dcll.sauvere;
 /**
  * Hello world!
  *
+ * @author Benoît Sauvère
+ *
  */
 public class App 
 {
