@@ -10,6 +10,9 @@ import org.junit.Test;
  */
 public class ItemTest extends TestCase {
 
+    /**
+     *
+     */
     @Test
     public void testItemGetterSetterAndConstructor() {
 

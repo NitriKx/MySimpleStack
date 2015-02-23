@@ -7,17 +7,32 @@ package dcll.sauvere;
  */
 public class Item {
 
+    /**
+     * The item stored as string.
+     */
     private String item;
 
-    public Item (String item) {
-        this.item = item;
+    /**
+     *
+     * @param itemAsString the item as String
+     */
+    public Item(final String itemAsString) {
+        this.item = itemAsString;
     }
 
-    public void setItem(String item) {
-        this.item = item;
+    /**
+     *
+     * @param itemAsString the new item as String
+     */
+    public final void setItem(final String itemAsString) {
+        this.item = itemAsString;
     }
 
-    public String getItem() {
+    /**
+     *
+     * @return the current item as String
+     */
+    public final String getItem() {
         return item;
     }
 }

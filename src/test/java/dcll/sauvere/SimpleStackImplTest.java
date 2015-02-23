@@ -1,7 +1,6 @@
 package dcll.sauvere;
 
 import junit.framework.TestCase;
-import org.junit.Test;
 
 import java.util.EmptyStackException;
 
@@ -12,6 +11,9 @@ import java.util.EmptyStackException;
  */
 public class SimpleStackImplTest extends TestCase {
 
+    /**
+     *
+     */
     public void testSimpleStackImpl() {
 
         SimpleStack ss = new SimpleStackImpl();
@@ -34,7 +36,9 @@ public class SimpleStackImplTest extends TestCase {
 
     }
 
-
+    /**
+     *
+     */
     public void testEmptyStackPeek() {
 
         SimpleStack ss = new SimpleStackImpl();
@@ -46,6 +50,9 @@ public class SimpleStackImplTest extends TestCase {
         }
     }
 
+    /**
+     *
+     */
     public void testEmptyStackPop() {
 
         SimpleStack ss = new SimpleStackImpl();

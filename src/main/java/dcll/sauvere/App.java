@@ -6,10 +6,19 @@ package dcll.sauvere;
  * @author Benoît Sauvère
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public final class App {
+
+    /**
+     *
+     */
+    private App() { }
+
+    /**
+     *
+     * @param args program arguments
+     */
+    public static void main(final String[] args) {
+        SimpleStack s = new SimpleStackImpl();
+        s.push(new Item("qdsmlkd"));
     }
 }
