@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created by benoit on 09/02/15.
+ * Created by Benoît Sauvère on 09/02/15.
  */
 public class SimpleStackImpl implements SimpleStack {
 

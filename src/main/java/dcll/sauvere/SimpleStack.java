@@ -3,7 +3,7 @@ package dcll.sauvere;
 import java.util.EmptyStackException;
 
 /**
- * Created by benoit on 09/02/15.
+ * Created by Benoît Sauvère on 09/02/15.
  */
 public interface SimpleStack {
     /**

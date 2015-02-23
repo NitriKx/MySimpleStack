@@ -1,7 +1,7 @@
 package dcll.sauvere;
 
 /**
- * Created by benoit on 09/02/15.
+ * Created by Benoît Sauvère on 09/02/15.
  */
 public class Item {
 

@@ -4,7 +4,7 @@ import junit.framework.TestCase;
 import org.junit.Test;
 
 /**
- * Created by benoit on 09/02/15.
+ * Created by Benoît Sauvère on 09/02/15.
  */
 public class ItemTest extends TestCase {
 
